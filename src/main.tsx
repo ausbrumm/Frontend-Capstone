@@ -8,7 +8,7 @@ import Routes from "./routes";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <BrowserRouter basename="/little-lemon">
+    <BrowserRouter basename="/Frontend-Capstone">
       <ThemeProvider theme={theme}>
         <GlobalStyles />
         <Routes />
